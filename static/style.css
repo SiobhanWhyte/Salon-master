@@ -39,284 +39,16 @@
     padding: 5px;
   }
   
-  .main img {
-    width: 350px;
-    padding: 50px;
-    display: block;
-    margin: auto;
-  }
-  
-  /*Animation for the div container start.*/
-  
-  #spaceAnimationHeading {
-    color: white;
-    text-align: center;
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
-    font-size: 38px;
-    font-weight: 100;
-    display: absolute;
-    margin-top: -100px;
-    margin-bottom: 20px;
-  }
-  
-  #spaceCite {
-    font-size: 30px;
-  }
-  
-  #spaceCite::before {
-    content: "\2014 \2009";
-  }
-  
-  #animationContainer {
-    padding: 120px;
-    min-height: 500px;
-    animation-name: divBackground;
-    -webkit-animation-name: divBackground;
-    animation-duration: 5s;
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-    -webkit-animation-duration: 5s;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
-  }
-  
-  @keyframes  divBackground {
-    from {
-      background-color: white;
-    }
-    to {
-      background-color: #343538;
-    }
-  }
-  
-  @-webkit-keyframes  divBackground {
-    from {
-      background-color: white;
-    }
-    to {
-      background-color: #343538;
-    }
-  }
-  
-  #box {
-    background-color: #592d00;
-    width: 250px;
-    height: 250px;
-    display: block;
-    margin: auto;
-    position: relative;
-    animation-name: box;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-name: box;
-    -webkit-animation-duration: 5s;
-    cursor: pointer;
-  }
-  
-  #clickMe {
-    color: white;
-    font-family: League Spartan, Helvetica, sans-serif;
-    font-size: 27px;
-    text-align: center;
-    vertical-align: center;
-    line-height: 250px;
-  }
-  
-  @keyframes box {
-    from {
-      border-radius: 0px;
-      background-color: #592d00;
-      position: relative;
-    }
-    to {
-      border-radius: 1000px;
-      background-color: #f99939;
-      position: relative;
-    }
-  }
-  
-  @-webkit-keyframes box {
-    from {
-      border-radius: 0px;
-      background-color: #592d00;
-    }
-    to {
-      border-radius: 1000px;
-      background-color: #f99939;
-    }
-  }
-  
-  #cratersContainer {
-    animation-name: fadeIn;
-    animation-fill-mode: forwards;
-    animation-duration: 15s;
-    -webkit-animation-name: fadeIn;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-duration: 15s;
-  }
-  
-  .crater {
-    width: 25px;
-    height: 25px;
-    background-color: #d86c00;
-    border-radius: 100px;
-    margin-left: 170px;
-    margin-top: 70px;
-    position: absolute;
-  }
-  
-  .crater2 {
-    width: 35px;
-    height: 35px;
-    background-color: #b75c01;
-    border-radius: 100px;
-    margin-left: 50px;
-    margin-top: 50px;
-    position: absolute;
-  }
-  
-  .crater3 {
-    width: 15px;
-    height: 15px;
-    background-color: #723f0d;
-    border-radius: 100px;
-    margin-left: 80px;
-    opacity: 0.6;
-    margin-top: 180px;
-    position: absolute;
-  }
-  
-  .crater4 {
-    width: 19px;
-    height: 19px;
-    background-color: #aa6817;
-    border-radius: 100px;
-    margin-left: 170px;
-    margin-top: 155px;
-    position: absolute;
-  }
-  
-  .crater5 {
-    width: 40px;
-    height: 40px;
-    background-color: #aa6817;
-    opacity: 0.4;
-    border-radius: 100px;
-    margin-left: 125px;
-    margin-top: 100px;
-    position: absolute;
-  }
-  
-  #starsContainer {
-    animation-name: fadeIn;
-    animation-fill-mode: forwards;
-    animation-duration: 15s;
-    -webkit-animation-name: fadeIn;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-duration: 15s;
-  }
-  
-  .star {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    background-color: white;
-    border-radius: 500px;
-    margin-top: -250px;
-  }
-  
-  .star2 {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    background-color: white;
-    border-radius: 500px;
-    margin-top: -140px;
-    left: 30%;
-  }
-  
-  .star3 {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background-color: white;
-    border-radius: 500px;
-    margin-top: -250px;
-    right: 35%;
-  }
-  
-  .star4 {
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    background-color: white;
-    border-radius: 500px;
-    margin-top: -70px;
-    right: 20%;
-  }
-  
-  .star5 {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    background-color: white;
-    border-radius: 500px;
-    margin-top: -170px;
-    right: 10%;
-  }
-  
-  .star6 {
-    width: 33px;
-    height: 33px;
-    position: absolute;
-    background-color: white;
-    border-radius: 500px;
-    margin-top: -90px;
-    left: 15%;
-  }
-  
-  .star7 {
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    background-color: white;
-    border-radius: 500px;
-    margin-top: 35px;
-    right: 35%;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  /*Animation for the div container end.*/
-  
+
   nav {
-    position: absolute;
-    right: 0px;
+    right: 10px;
   }
   
-  #logo {
-    font-family: League Spartan, Helvetica, sans-serif;
-    font-size: 30px;
-    float: left;
-    position: absolute;
-    padding: 25px;
+  .logo {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
   }
   
   i {
@@ -324,10 +56,7 @@
     margin-left: 1px;
   }
   
-  #logo a {
-    text-decoration: none;
-    color: white;
-  }
+
   
   .link {
     position: relative;
@@ -379,25 +108,27 @@
   }
   
   .heropage {
-    background: url(///images/herobackground.jpeg);
-    background-size: cover;
-    min-height: 1000px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    background-color: #1f2021;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+    
+  }
+  .heroimage {
+    max-width: 90%;
+    margin-bottom: 3rem;
   }
   
   .herotext h1 {
@@ -405,28 +136,33 @@
     font-family: League Spartan;
     color: white;
     font-size: 55px;
+    position: relative;
   }
   
   .herotext button:focus {
     outline: 0;
+    position: relative;
   }
   
   .herotext button {
-    font-size: 20px;
-    width: 190px;
+    font-size: 23px;
+    width: 15rem;
     font-family: 'Roboto', sans-serif;
-    background-color: transparent;
+    background-color: #345460;
     border-radius: 500px;
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
     height: 57px;
     cursor: pointer;
     transition: all 0.2s linear;
+
   }
   
   .herotext button:hover {
-    background-color: white;
-    color: black;
+    background-color:#192032;
+    color:white;  
+    box-shadow: 0px 15px 20px #345460;
+    transform: translateY(-10px);
   }
   
   .container {
@@ -489,8 +225,9 @@
   }
   
   .profile {
-    width: 150px;
-    border-radius: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     padding: 15px;
   }
   
@@ -532,47 +269,7 @@
     border-bottom: 2px solid #F2F2F2;
   }
   
-  article {
-    padding: 70px;
-    width: 1000px;
-    text-align: center;
-    display: block;
-    margin: auto;
-  }
   
-  blockquote:before {
-  display: block;
-  content: "\201C";
-  font-style: normal;
-  font-size: 150px;
-  font-family: League Spartan;
-  position: absolute;
-  margin-top: -50px;
-  margin-left: -70px;
-  color: #7a7a7a;
-  }
-  
-  blockquote cite {
-  color: #999999;
-  font-size: 17px;
-  display: block;
-  margin-top: 5px;
-  }
-  
-  blockquote cite:before {
-  content: "\2014 \2009";
-  }
-  
-  blockquote {
-    margin-top: 70px;
-    width: 800px;
-    margin-bottom: 70px;
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    font-style: italic;
-    display: block;
-  }
   
   .secondimg {
     width: 220px;
