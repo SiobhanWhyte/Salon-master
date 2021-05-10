@@ -379,7 +379,7 @@
   }
   
   .heropage {
-    background: url(https://cdn.dribbble.com/users/108482/screenshots/1355879/attachments/193117/Space-Desktop.jpg);
+    background: url(///images/herobackground.jpeg);
     background-size: cover;
     min-height: 1000px;
     background-attachment: fixed;
