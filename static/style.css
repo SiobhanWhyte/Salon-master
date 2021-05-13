@@ -8,6 +8,8 @@
     src: url(C:\Users\Home\AppData\Local\Temp\atom-118019-14536-1ea9572.rtm9ozuxr\league-spartan.zip\LeagueSpartan-Bold.otf);
     font-family: League Spartan;
   }
+
+  /*nav bar*/
   
   .header {
     background-color: #fff;
@@ -138,35 +140,11 @@
       display: none;
     }
   }
+  /*End of Nav Bar*/
   
-  .main {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  
-  .main-text {
-    display: block;
-    width: 500px;
-    padding: 15px;
-    margin: auto;
-    border-top: 2px solid #F2F2F2;
-    text-align: center;
-  }
-  
-  .main h2 {
-    font-family: League Spartan, Helvetica, sans-serif;
-    font-size: 35px;
-    margin-top: 10px;
-  }
-  
-  .main p {
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 5px;
-  }
   
 
- 
+ /*footer links*/
   .link {
     position: relative;
   }
@@ -198,9 +176,10 @@
   }
   
 
-  
+  /*Homepage*/
+
   .heropage {
-    background-color: #1f2021;
+  background-color: #1f2021;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -219,8 +198,9 @@
     object-fit: cover;
     width: 100%;
     height: auto;
-    padding: 5rem 5rem 7rem 5rem;
   }
+
+  /*button*/
   
   .herotext h1 {
     margin-bottom: 15px;
@@ -259,6 +239,10 @@
     transform: translateY(-10px);
   }
   
+
+
+  /*Team*/
+
   .container {
     width: 100%;
     border-top: 2px solid #F2F2F2;
@@ -269,7 +253,7 @@
     align-content: space-around;
     transition: all 0.2s linear;
   }
-  
+
   .item {
     background-color: #343538;
     padding: 15px;
@@ -358,152 +342,15 @@
     color: black;
   }
   
-  section {
-    border-top: 2px solid #F2F2F2;
-    border-bottom: 2px solid #F2F2F2;
-  }
+ 
+  
+  
+ 
   
   
   
-  .secondimg {
-    width: 220px;
-    border-right: 2px solid #F2F2F2;
-    float: left;
-    margin-top: -15px;
-    margin-right: 50px;
-    margin-left: -20px;
-  }
   
-  .content2 {
-    padding: 100px;
-    width: 1100px;
-    display: block;
-    margin: auto;
-    text-align: center;
-  }
-  
-  
-  .content2 h2 {
-    font-size: 35px;
-    font-family: League Spartan, Helvetica, sans-serif;
-  }
-  
-  .content2 p {
-    font-size: 20px;
-  }
-  
-  @media screen and (max-width: 1100px) {
-    .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-    .item {
-      margin-top: 40px;
-      margin-bottom: 50px;
-    }
-    .item-2 {
-      margin-top: 40px;
-      margin-bottom: 50px;
-    }
-    .item-3 {
-      margin-top: 40px;
-      margin-bottom: 50px;
-    }
-  }
-  
-  
-  .tabFacts {
-    padding: 80px;
-    text-align: center;
-    display: block;
-    margin: auto;
-    border-bottom: 2px solid #F2F2F2;
-  }
-  
-  .tabFacts h1 {
-    font-family: League Spartan, Helvetica, sans-serif;
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .tabFacts p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  .tabButton {
-    border: none;
-    margin-top: 30px;
-    width: 150px;
-    cursor: pointer;
-    border-radius: 500px;
-    border: 2px solid #343538;
-    padding: 15px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: #343538;
-    font-size: 17px;
-    margin-right: 20px;
-    transition: all 0.2s linear;
-  }
-  .tabButton:hover {
-    background-color: #1f2021;
-    color: white;
-    border: 2px solid #1f2021;
-  }
-  
-  #button1 {
-    background-color: black;
-  }
-  
-  .tabContainer {
-    max-width: 900px;
-    text-align: center;
-    display: block;
-    margin: auto;
-  }
-  
-  #tabContainer2, #tabContainer3 {
-    display: none;
-    transition: all 0.2s linear;
-  }
-  
-  .tabContainer img {
-    width: 170px;
-    float: left;
-    margin-top: 30px;
-    margin-right: 50px;
-  }
-  
-  #tabContainer2 img {
-    width: 170px;
-    float: right;
-    margin-top: 30px;
-    margin-left: 50px;
-  }
-  
-  .tabText {
-    width: 720px;
-    padding: 25px;
-    margin-top: 50px;
-    margin-left: 100px;
-  }
-  
-  .tabContainer h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 34px;
-    text-align: left;
-    font-weight: 500;
-  }
-  
-  .tabContainer p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    text-align: left;
-  }
+    /*contact page*/
   
   form {
     width: 700px;
@@ -672,63 +519,20 @@
      
     }
   }
-  /*Lorem Ipsum Content-1 end*/
-  
-  
-  
-  
-  /*Lorem Ipsum Content-2*/
+
   @media screen and (max-width: 1071px) {
    
   }
   
   @media screen and (max-width: 1053px){
-    .secondimg {
-      display: block;
-      margin: auto;
-    }
-    .content2 {
-      width: 100%;
-      display: block;
-      margin: auto;
-      text-align: center;
-    }
-  }
+ 
   /*Lorem Ipsum Content-2*/
   
   @media screen and (max-width: 993px) {
-    .tabFacts img {
-      float: none;
-      display: block;
-      margin: auto;
-      margin-bottom: 10px;
-      margin-top: 40px;
-    }
-    .tabContainer img {
-      float: none;
-      display: block;
-      margin: auto;
-      margin-bottom: 10px;
-      margin-top: 40px;
-    }
-    #tabContainer2 img {
-      float: none;
-      display: block;
-      margin: auto;
-      margin-bottom: 10px;
-      margin-top: 40px;
-    }
-    .tabButton {
-      margin-bottom: -15px;
-    }
-    .tabText {
-      width: 100%;
-      text-align: center;
-      margin: auto;
-      display: block;
-    }
+    
   }
   
+  /*contact us page*/
   /*form section*/
   @media screen and (max-width: 732px) {
   .form h1 {
